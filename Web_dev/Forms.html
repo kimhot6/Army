@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <h2>Hijacking Search</h2>
+    <p>
+    <form action="https://search.naver.com/search.naver" target="_blank">
+        <label for="search">Naver Search</label>
+        <input type="text" placeholder="Search on Naver" id="search" name="query">
+        <button>Let's Gooo</button>
+    </form>
+    </p>
+    <p>
+    <form action="https://www.youtube.com/results" target="_blank">
+
+        <label for="name">Youtube Search: </label>
+        <input type="text" placeholder="Search on Youtube" id="name" name="search_query">
+        <button>Search</button>
+    </form>
+    </p>
+    <h2>Various Inputs</h2>
+    <form action="/birds">
+        <div>
+            <input type="checkbox" id="walden">
+            <label for="walden">Walden</label>
+        </div>
+        <input type="radio">
+        <div>
+            <label for="big_three">Big three: </label>
+            <span>0</span>
+            <input type="range" id="big_three" name="big_three" min="0" max="600" step="10" value="270">
+            <span>600</span>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
