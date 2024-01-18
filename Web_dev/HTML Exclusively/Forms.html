@@ -37,9 +37,26 @@
             <span>0</span>
             <input type="range" id="big_three" name="big_three" min="0" max="600" step="10" value="270">
             <span>600</span>
-            <button>Submit</button>
         </div>
+        <label for="num">Num: </label>
+        <input type="number" id="num" name="num" placeholder="Enter number" min="10" max="100000" step="5">
+        <button>Submit</button>
     </form>
+    <h2>Form Validation</h2>
+
+    <form action="/dummy">
+        <div>
+            <label for="id">ID: </label>
+            <input type="text" name="id" id="id" placeholder="Enter your ID" required>
+        </div>
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" placeholder="Enter your Username" minlength="5"
+                maxlength="10" required>
+        </div>
+        <button>Submit</button>
+    </form>
+
 </body>
 
 </html>
