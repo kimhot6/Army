@@ -16,3 +16,25 @@ button{
     font-size: 20px;
     color: #3d348b;
 }
+button:hover{
+    background-color: blue;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#signup:active{
+    background-color: #ffd6ff;
+    color: aqua;
+}
+.post:nth-of-type(2n){
+    background-color: #c9ada7;
+}
+h2::first-letter{
+    font-size: 40px;
+    color: #06d6a0;
+}
